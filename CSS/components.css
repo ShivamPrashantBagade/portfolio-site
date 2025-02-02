@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #221556;
+}
+
+a:hover {
+  color: rgb(226, 73, 73);
+  /* font-weight: 800; */
+  transition: 0.3s;
+  text-underline-position: below;
+}
+
+.html {
+  font-size: 50%;
+  scroll-behavior: smooth;
+  color: rgb(16, 16, 16);
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #fff3d3;
+  color: #221556;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.center {
+  text-align: center;
+}
